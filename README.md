@@ -67,7 +67,7 @@ _**(Python 3.10 recommended)**_
 4) Activate virtual environment:  
 ![image](https://user-images.githubusercontent.com/72568844/208301307-acc9c37e-0692-4649-9661-142799cadcd6.png)  
 ![image](https://user-images.githubusercontent.com/72568844/208301342-ec53c20c-4ec7-46a4-9f0b-8289a73df0f2.png)  
-Restart your terminal:
+Restart your terminal:  
 ![image](https://user-images.githubusercontent.com/72568844/208301678-a87d52c8-5f12-47fd-8da5-115faad0b6a2.png)
 
 5) Install requirements:  
