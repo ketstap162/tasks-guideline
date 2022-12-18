@@ -61,19 +61,23 @@ Example 2:
 2) Open terminal in IDE:  
 ![image](https://user-images.githubusercontent.com/72568844/208298549-8281dcf2-f1d2-47a5-84e1-7c2ede69bbaa.png)
 
-3) Create virtual environment  
+3) Create virtual environment:  
 Run command: `python -m venv venv`  
 _**(Python 3.10 recommended)**_
 
-4) Install requirements:  
+4) Activate virtual environment:
+![image](https://user-images.githubusercontent.com/72568844/208301307-acc9c37e-0692-4649-9661-142799cadcd6.png)
+![image](https://user-images.githubusercontent.com/72568844/208301342-ec53c20c-4ec7-46a4-9f0b-8289a73df0f2.png)
+
+5) Install requirements:  
 Run command: `pip install -r requirements.txt`
 
-5) Create new branch:  
+6) Create new branch:  
 Run command: `git checkout -b develop`  
 You can replace `develop` with `{username}_develop`  
 ![image](https://user-images.githubusercontent.com/72568844/208298592-9d9db1a2-ecf8-4f86-9d39-3bb4f022d2a2.png)
 
-6) Let's start your work!
+7) Let's start your work!
 
 
 ### How to run tests
