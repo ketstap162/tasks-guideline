@@ -94,7 +94,7 @@ _**You should replace "develop" with your branch name!
 
 
 ### How to create pull request
-If you push your solution right now:
+#### If you push your solution right now:
 1) Click on `link` in terminal:  
 ![image](https://user-images.githubusercontent.com/72568844/208298701-7f68933b-ef08-4f46-8283-46a536da425a.png)
 
@@ -102,7 +102,7 @@ If you push your solution right now:
 ![image](https://user-images.githubusercontent.com/72568844/208298720-621dac08-3d15-48f4-a832-5f53f74f4200.png)
   
 
-If you lose this link, just go to GitHub repo and do some actions:
+#### If you lose this link, just go to GitHub repo and do some actions:
 1) Open `branches` on your repo:  
 ![image](https://user-images.githubusercontent.com/72568844/208298795-7b2d8fbd-730c-49c8-8b74-447a9b351a17.png)
 
