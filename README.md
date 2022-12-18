@@ -17,62 +17,76 @@ So, steps for doing it:
 1) Open repo on `GitHub`.
 
 2) Click `Fork` in the top right corner.  
-![image](https://user-images.githubusercontent.com/72568844/207454345-9305f8ab-484b-4b74-9ab4-ae4948a1a6d0.png)
+![image](https://user-images.githubusercontent.com/72568844/208298110-f6cdd157-ea3d-4493-a468-3a487af30afe.png)
 
 3) Click `Create fork`.  
 **Warning: Don't change anything!**  
-![image](https://user-images.githubusercontent.com/72568844/207454436-ff02e137-546e-468b-83ba-f25761d9f7ff.png)
+![image](https://user-images.githubusercontent.com/72568844/208298135-699d1bb0-cb00-4ac9-9dfd-03514ab70bb9.png)
 
 4) Complete! Repo The repository must be forked.
-![image](https://user-images.githubusercontent.com/72568844/207454503-d18e16d0-10e3-4369-a4b4-31dfbc725d26.png)
+![image](https://user-images.githubusercontent.com/72568844/208298180-8873f14c-8397-4785-8282-9a5e055e26f9.png)
 
 
 ### How to clone repository
 
 1) Copy SSH key from repo  
-![image](https://user-images.githubusercontent.com/72568844/207454593-1c7bbe71-f19a-48a1-bc63-6e9519886836.png)
+![image](https://user-images.githubusercontent.com/72568844/208298243-dfcc7264-3c65-46ed-b1d2-4815b10c0f7d.png)
 
 2) Open project folder on terminal (ex: Windows)  
-![image](https://user-images.githubusercontent.com/72568844/207454628-6d14e5be-e5f0-4dd9-a943-44ddf29777d2.png)   
-![image](https://user-images.githubusercontent.com/72568844/207454747-7dcd2890-3bf5-4f79-988c-4364617328c2.png)
+![image](https://user-images.githubusercontent.com/72568844/208298402-29998fda-2b72-43af-aff2-b4e34caa9399.png)
+
+![image](https://user-images.githubusercontent.com/72568844/208298330-48d5e2c8-5d06-4de7-a1c8-29fdc50e4896.png)
+
 3) Run command
 `git clone {paste copied SSH}`
+
 4) Enter your password (if it's need)
+![image](https://user-images.githubusercontent.com/72568844/208298358-df7e16cb-af21-4995-bdd6-92bcbb0e4980.png)
+
 5) Complete!  
-![image](https://user-images.githubusercontent.com/72568844/207454819-f5348e93-8647-4b18-81b0-157598a26383.png)
+![image](https://user-images.githubusercontent.com/72568844/208298372-24ff7fcd-0169-4f8a-9dc2-2360f65aee24.png)
+![image](https://user-images.githubusercontent.com/72568844/208298387-5b8d48c2-56fc-462d-8ed2-f448ac24a16b.png)
+
 
 
 ### How to set up your project
 
 1) Open downloaded folder with IDE (PyCharm, VS Code or other):  
 Example 1:  
-![image](https://user-images.githubusercontent.com/72568844/207454855-6fcae3f4-909e-4d8c-a5c1-18fc6f6df4e4.png)  
+![image](https://user-images.githubusercontent.com/72568844/208298454-9f9f644f-23c1-4681-8c09-cf26c3759a68.png)
 Example 2:  
-![image](https://user-images.githubusercontent.com/72568844/207454888-3fcddcf8-8c8e-437a-9564-9f7439b9b9a8.png)
-![image](https://user-images.githubusercontent.com/72568844/207454907-fe8a15c4-1653-47e5-9d3d-fbd1ab61e566.png)
+![image](https://user-images.githubusercontent.com/72568844/208298480-fd3a5b5f-f198-4ba2-9264-2e02b3e477e3.png)
+![image](https://user-images.githubusercontent.com/72568844/208298525-2b95fe32-d8d3-4f0e-ae94-82928d563f40.png)
+
 2) Open terminal in IDE:  
-![image](https://user-images.githubusercontent.com/72568844/207454989-a88c4213-55aa-40d2-b4c5-07ecc8456374.png)
+![image](https://user-images.githubusercontent.com/72568844/208298549-8281dcf2-f1d2-47a5-84e1-7c2ede69bbaa.png)
+
 3) Create virtual environment  
 Run command: `python -m venv venv`  
 _**(Python 3.10 recommended)**_
+
 4) Install requirements:  
 Run command: `pip install -r requirements.txt`
+
 5) Create new branch:  
 Run command: `git checkout -b develop`  
 You can replace `develop` with `{username}_develop`  
-![image](https://user-images.githubusercontent.com/72568844/207455056-6dc3e5f8-9c27-4fb2-96a9-fff084920f12.png)
+![image](https://user-images.githubusercontent.com/72568844/208298592-9d9db1a2-ecf8-4f86-9d39-3bb4f022d2a2.png)
+
 6) Let's start your work!
 
 
 ### How to run tests
---- it should be implemented ---
+Run command: `pytest` in terminal
 
 
 ### How to push your solution on GitHub
 1) Open terminal
+
 2) Commit your solution:  
 Run command: `git commit -am "Solution!"`  
 _You can replace "Solution!" with other commit name_
+
 3) Push your solution:  
 Run command: `git push origin develop`  
 _**You should replace "develop" with your branch name!  
@@ -82,16 +96,18 @@ _**You should replace "develop" with your branch name!
 ### How to create pull request
 If you push your solution right now:
 1) Click on `link` in terminal:  
-![image](https://user-images.githubusercontent.com/72568844/207455119-35c032e6-0d7b-4e12-992e-ca75ffd21550.png)
+![image](https://user-images.githubusercontent.com/72568844/208298701-7f68933b-ef08-4f46-8283-46a536da425a.png)
+
 2) Click on `Create pull request`
-![image](https://user-images.githubusercontent.com/72568844/207455199-b8fe7d7e-ec31-4e26-a61e-237272992e3d.png)
+![image](https://user-images.githubusercontent.com/72568844/208298720-621dac08-3d15-48f4-a832-5f53f74f4200.png)
   
 
 If you lose this link, just go to GitHub repo and do some actions:
 1) Open `branches` on your repo:  
-![image](https://user-images.githubusercontent.com/72568844/207455544-938f458e-ac0a-4723-a34d-4d7642c3a24c.png)
+![image](https://user-images.githubusercontent.com/72568844/208298795-7b2d8fbd-730c-49c8-8b74-447a9b351a17.png)
+
 2) Click to `New pull request` on your branch:  
-![image](https://user-images.githubusercontent.com/72568844/207455692-02c7b282-5d8b-4377-9e0e-7e2101754112.png) 
+![image](https://user-images.githubusercontent.com/72568844/208298846-9f2eebd6-84dc-4367-8e61-c64739fc27fc.png)
 
 3) And now just click on `Create pull request`  
-![image](https://user-images.githubusercontent.com/72568844/207455724-a51f4980-6d4e-4899-a8b6-6e8eb1734610.png)
+![image](https://user-images.githubusercontent.com/72568844/208298865-9c6c8548-345a-4220-913f-05e72ea5ad61.png)
